@@ -21,8 +21,8 @@ Users should be able to:
 ![].(images/CrowdFundScreenshot.png)
 
 ### Links
-- Solution URL: [solution.com](https://github.com/nick335/)
-- Live Site URL: [sunny.com](https://nick335.github.io/sunny/)
+- Solution URL: [solution.com](https://github.com/nick335/crowdFundMain)
+- Live Site URL: [sunny.com](https://nick335.github.io/crowdFundMain/)
 
 ## My process
 
@@ -51,7 +51,7 @@ Users should be able to:
 - (https://www.codegrepper.com/) this helped with the popup background and javascript;
 
 ## Author
-- Website - [Nicholas](https://www.your-site.com)
+- Website - [Nicholas](https://github.com/nick335/crowdFundMain)
 - Frontend Mentor - [@nick335](https://www.frontendmentor.io/profile/nick335)
 - Twitter - [@ChigozieErigo](https://www.twitter.com/ChigozieErigo)
 
