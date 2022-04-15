@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [solution.com](https://github.com/nick335/crowdFundMain)
-- Live Site URL: [sunny.com](https://nick335.github.io/crowdFundMain/)
+- Live Site URL: [crowdFund.com](https://nick335.github.io/crowdFundMain/)
 
 ## My process
 
@@ -58,5 +58,5 @@ Users should be able to:
 
 ## Questions
 - how to make the height of the popup background cover the entire height of the page automatically?
-- is there any other way to convert a number to a currency value other than the method i used, i used this method 'String.Format(new System.Globalization.CultureInfo("en-US"), "{0:C}", 5620000)' but it didn't work
-- any suggestions to futher improve the project will be much apperaticated 
+- is there any other way to convert a number to a currency value other than the method I used, I used this method 'String.Format(new System.Globalization.CultureInfo("en-US"), "{0:C}", 5620000)' but it didn't work
+- any suggestions to further improve the project will be much apperaticated 
