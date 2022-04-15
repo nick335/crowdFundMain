@@ -1,0 +1,292 @@
+:root{
+	--moderate-cyan: hsl(176, 50%, 47%);
+	--dark-cyan: hsl(176, 72%, 28%);
+	--black: hsl(0, 0%, 0%);
+	--dark-gray: hsl(0, 0%, 48%);
+	--body-color: hsl(0, 0%, 96%);
+	--white: #ffffff;
+}
+/*navbar*/
+#navbar{
+	background-image: url(../images/image-hero-mobile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 50vh;
+}
+
+.nav-container{
+	padding: 1rem;
+}
+ .nav-container.mobile-active{
+ 	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+  	height: 120vh;
+  	position: absolute;
+  	top: 0;
+ }
+.bar{
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	transition: all 0.3s ease-in-out;
+	background: var(--white);
+	display: block;
+	cursor: pointer;
+}
+#mobile_menu.mobile-active .bar:nth-child(2){
+	opacity: 0;
+}
+#mobile_menu.mobile-active .bar:nth-child(1){
+	transform: translateY(8px) rotate(45deg);
+}
+#mobile_menu.mobile-active .bar:nth-child(3){
+	transform: translateY(-8px) rotate(-45deg);
+}
+.div-list{
+	background: var(--white);
+	z-index: 101;
+	width: inherit;
+	margin: 0  1.2rem;
+	width: 90%;
+	position: absolute;
+	top: -1000px;
+	border-radius: 15px;
+	left: 0;
+	opacity: 1;
+	transition: all 0.5s ease;
+	z-index: -1;
+	
+}
+.div-list.mobile-active{
+	top: 65px;
+	z-index: 2;
+}
+.nav-list {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	width: 100%;
+	padding: 0rem 0rem;
+}
+.nav-list li{
+	padding: 1.5rem 0rem;
+}
+.nav-list li:first-child,
+.nav-list li:nth-child(2) {
+	border-bottom: 1px solid hsl(0, 0%, 80%);
+	width: 100%;
+}
+
+.nav-list li a{
+	color: var(--black);
+	padding:1rem;
+	font-weight: 700;
+}
+.on-img{
+	margin-top: -40px;
+}
+.card{
+	width: 370px;
+}
+.m-logo{
+	margin-top: -25px;
+	padding-bottom: 20px;
+}
+.card1{
+	padding: 0 1rem;
+}
+.card1 h2{
+	font-size: 1.4rem;
+}
+.card1 p{
+	font-size: 0.8rem;
+}
+.btn-bookmark{
+	display: none;
+}
+.div-btn {
+	padding: 2rem 0rem;
+	justify-content: center;
+	position: inherit;
+}
+.div-btn svg{
+	position: inherit;
+	margin-left: 0.8rem;
+}
+.btn-ofs{
+	width: 130px;
+}
+.btn-medium{
+	padding: 0.7rem 1.7rem;
+	border-radius: 50px;
+	border: none;
+	outline: none;
+	/*width: 130px;*/
+}
+.btn-large{
+	padding: 1rem 1.5rem;
+}
+.btn{
+	width: 130px;
+	padding: 0.7rem 1rem;
+	font-size: 0.9rem;
+}
+.btn-white{
+	padding: 0.5rem 1.5rem;
+}
+/*card 2*/
+.card2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 0;
+}
+.card2 div{
+	padding: 0.8rem 0;
+	text-align: center;
+}
+.card2-h3{
+	padding-left: 0;
+	padding-bottom: 0.1rem;
+	text-align: center;
+}
+.txt-span{
+	margin-left: 0px;
+	text-align: center;
+}
+.progress-div{
+	margin: 1rem 1.5rem;
+}
+.right-border{
+	border-right: none;
+ }
+/*card3*/
+.card3{
+	padding:1rem;
+}
+.about-project h4{
+	padding-bottom: 1rem;
+}
+.card3 p{
+	font-weight: 500;
+	font-size: 0.815rem;
+	padding-bottom: 15px;
+}
+.box-content{
+	padding: 1rem;
+}
+.head-foot-flex{
+	flex-direction: column;
+}
+.head-foot-flex h4{
+	padding-bottom: 10px;
+}
+.flex{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: normal;
+	/*align-content: center;*/
+	align-items: center;
+	width: auto;
+}
+/*card 4*/
+.card4{
+	padding: 0 1rem;
+}
+.card4-content{
+	padding: 0.5rem;
+}
+.card4-flexbox{
+	display: grid;
+	grid grid-template-columns: 1fr;
+}
+.flex-head{
+	flex-direction: column;
+	justify-content: normal;
+	align-items: flex-start;
+	/*margin-top: -25px;*/
+	/*margin-left: 40px;*/
+}
+.mobile-position{
+	margin-top: -37px;
+	margin-left: 40px;
+}
+.mobile-position2{
+	margin-top: -25px;
+	margin-left: 40px;
+}
+.flexbox-right{
+	margin-left: 0;
+	padding: 0;
+}
+.flex2{
+	margin-top: -25px;
+}
+.flex-head h4{
+	padding: 0;
+	font-size: 0.8rem;
+	padding-bottom: 0px;
+	font-weight: 700;
+	margin: 0;
+}
+.flex-head h4:nth-child(2) {
+	font-size: 0.7rem;
+	font-weight: 500;
+}
+
+.card4-para p{
+	padding: 1rem;
+}
+.flexbox-right-para p{
+	padding: 1rem 0rem;
+	font-size: 0.79rem;
+}
+.flex-head{
+	display: flex;
+	flex-direction: column;
+	justify-content:;
+	align-items:center;
+	padding-top:0.5rem;
+}
+.flex-btn button{
+	margin: 0;
+	margin-top: 1rem;
+	margin-right: 0.5rem;
+	margin-bottom: 1rem;
+	/*display: flex;*/
+	/*justify-content: normal;*/
+
+}
+.flex-head h4{
+	padding-right: 0;
+	text-align: center;
+}
+.border-top{
+	padding: 0rem;
+}
+.popup-background {
+	height: 290vh;
+}
+/*thanks popup*/
+.card5-content p{
+	width: 270px;
+}
+@media screen and (max-width: 375px){
+	.card{
+		width: 290px;
+	}
+	.popup-background{
+		height: 360vh;
+	}
+	.card5-content p{
+	width: 240px;
+	}
+}
+@media screen and (max-width: 320px){
+	.popup-background{
+		height: 480vh;
+	}
+}
